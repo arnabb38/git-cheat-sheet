@@ -1,7 +1,8 @@
 # Git Cheat Sheet!
 
 
-## Git: configurations
+## Git: Configurations
+
 ```
    $ git config --global user.name "FirstName LastName"
 ```
@@ -16,7 +17,8 @@
 ```
 
 
-## Git: starting a repository
+## Git: Starting a repository
+
 ```
    $ git init
 ```
@@ -25,7 +27,8 @@
 ```
 
 
-## Git: staging files
+## Git: Staging files
+
 ```
    $ git add <file-name>
 ```
@@ -49,9 +52,10 @@
 ```
 
 
-## Git: committing to a repository
+## Git: Committing to a repository
+
 ```
-   $ git commit -m "Add three files"
+   $ git commit -m "enter your message"
 ```
 ```   
    $ git reset --soft HEAD^
@@ -59,3 +63,38 @@
 ```
    $ git commit --amend -m <enter your message>
 ```  
+
+
+## Git: Pulling and pushing from and to repositories
+
+```
+   $ git remote add origin <link>
+```
+```
+   $ git push -u origin master
+```
+```
+   $ git clone <clone link>
+```
+```
+   $ git pull
+```
+
+
+## Git: Branching 
+
+```
+   $ git branch 
+```
+```
+   $ git branch <branch-name>
+```
+```
+   $ git checkout <branch-name>
+```
+```
+   $ git merge <branch-name>
+```
+```
+   $ git checkout -b <branch-name>
+```
