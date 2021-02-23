@@ -6,13 +6,13 @@
 
 # Content
 
-- [Git: Configurations](#Git:-Configurations)
-- [Git: Starting a repository](#Git:-Starting-a-repository)
-- [Git: Staging files](#Git:-Staging-files)
-- [Git: Committing to a repository](#Git:-Committing-to-a-repository)
-- [Git: Pulling and pushing from and to repositories](#Git:-Pulling-and-pushing-from-and-to-repositories)
-- [Git: Branching](#Git:-Branching )
-- [Git: Stash](#Git:-Stash)
+- [Git: Configurations](#Git-Configurations)
+- [Git: Starting a repository](#Git-Starting-a-repository)
+- [Git: Staging files](#Git-Staging-files)
+- [Git: Committing to a repository](#Git-Committing-to-a-repository)
+- [Git: Pulling and pushing from and to repositories](#Git-Pulling-and-pushing-from-and-to-repositories)
+- [Git: Branching](#Git-Branching )
+- [Git: Stash](#Git-Stash)
 
 
 # Git: Configurations
