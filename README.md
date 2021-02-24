@@ -14,6 +14,7 @@
 - [Git: Branching](#Git-Branching )
 - [Git: Stash](#Git-Stash)
 
+<br>
 
 # Git: Configurations
 
