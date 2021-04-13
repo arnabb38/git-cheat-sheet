@@ -163,14 +163,39 @@ Create and switch to the branch:
    $ git checkout -b <branch-name>
 ```
 
-To delete a Git branch:
+To delete a Git branch in local:
 ```
    $ git checkout -d <branch-name>
 ```
 
-To delete a Git branch **forcefully**:
+To delete a Git branch **forcefully** in local:
 ```
    $ git checkout -D <branch-name>
+```
+
+To delete a Git branch in Remote:
+```
+   $ git checkout <branch-name>
+   
+   $ git push origin --delete <branch-name>
+```
+
+To prune / remove local caches:
+```
+   $ git fetch -p
+```
+
+To create a **Feature** *(sub-branch)* branch under a **Dev** *(parent-branch)* branch
+```
+   $ git checkout -b <feature-branch-name> <parent-branch-name>
+
+   $ git commit -am "Your commit message"
+
+   $ git checkout <parent-branch-name>
+   $ git merge --no-ff <feature-branch-name>
+
+   $ git push origin <parent-branch-name>
+   $ git push origin <feature-branch-name>
 ```
 
 <br>
